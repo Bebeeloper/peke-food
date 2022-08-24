@@ -193,7 +193,7 @@ header .toggle-container {
     .search .filters-container a{
         padding: 0.3rem;
         width: 7.4rem;
-        height: 100%;
+        /* height: 100%; */
         border-radius: 0.6rem;
         text-align: center;
         text-decoration: none;
