@@ -12,3 +12,19 @@ myCheckbox.addEventListener('click', (event) => {
         logo.src = 'images/logo/Logo-dark-mobile.png';
     }
 });
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        document.getElementById("slide1").src = './images/resources/health-food-middle.png';
+        document.getElementById("slide2").src = './images/resources/breakfast-middle.png';
+        document.getElementById("slide3").src = './images/resources/restaurant-middle.png';
+    } else {
+        document.getElementById("slide1").src = './images/resources/health-food-mobile.png';
+        document.getElementById("slide2").src = './images/resources/breakfast-mobile.png';
+        document.getElementById("slide3").src = './images/resources/restaurant-mobile.png';
+    }
+  }
+  
+var x = window.matchMedia("(min-width: 429px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
