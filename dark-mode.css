@@ -372,4 +372,24 @@ footer p {
         align-items: center;
     }
 
+    /* ////////////////////////////////////////////////////////////////// main container tablet///////////////////////////////////////////////////////////////////////////////// */
+    .main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*  */
+    .main-container > figure {
+        width: 100%;
+        height: 45.3rem;
+    }
+    
+    .main-container > figure img{
+        width: 100%;
+        height: 100%;
+    }
+    /* ////////////////////////////////////////////////////////////////// main container tablet///////////////////////////////////////////////////////////////////////////////// */
+    
 }
