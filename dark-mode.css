@@ -308,3 +308,68 @@ footer p {
     color: var(--font-gray);
 }
 /* /////////////////////////////////////////////////////////////////////////////////  Footer /////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 429px) {
+    header .menu-hamburger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 17.62%;
+    }
+
+    header .menu-hamburger a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        height: 3.1rem;
+        width: 4.5rem;
+    }
+
+    header .menu-hamburger a span {
+        background-color: var(--yellow);
+        height: 0.5rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    header .logo-container {
+        height: 100%;
+        width: 38.96%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .logo-container img {
+        width: 74.46%;
+        height: 77.27%;
+    }
+
+    header .button-menu-container {
+        height: 100%;
+        width: 34.17%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .button-menu-container input {
+        width: 83.15%;
+        height: 62.12%;
+        background-color: var(--yellow);
+        border: none;
+        border-radius: 1rem;
+        font-size: 1.8rem;
+    }
+
+    header .toggle-container {
+        height: 100%;
+        width: 14.87%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
